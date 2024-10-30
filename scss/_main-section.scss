@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 7.5rem;
+    width: 37.5rem !important;
+    height: 24.125rem !important;
+    gap: 1.688rem;
+}
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 6rem;
+    letter-spacing: 0.014rem;
+    width: 37.5rem !important;
+}
+
+.descr {
+    font-size: 1.375rem;
+}
+
+.frame {
+    width: 120rem;
+    height: 51.938rem;
+    background-image: url(../imgs/IMAGE.jpeg);
+    background-size: cover;
+}
+
+.btn-main {
+    width: 12.938rem;
+    height: 4.438rem;
+    border: 0.125rem solid rgb(41, 47, 54);
+    border-radius: 1.125rem;
+    background: rgb(41, 47, 54);
+    color: white;
+}

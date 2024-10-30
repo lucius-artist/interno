@@ -1,0 +1,625 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+.navbar {
+  font-size: 1.25rem;
+  display: flex;
+  gap: 30.313rem;
+}
+
+.menu {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  align-items: end;
+  gap: 2.5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 7.5rem;
+  width: 37.5rem !important;
+  height: 24.125rem !important;
+  gap: 1.688rem;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 6rem;
+  letter-spacing: 0.014rem;
+  width: 37.5rem !important;
+}
+
+.descr {
+  font-size: 1.375rem;
+}
+
+.frame {
+  width: 120rem;
+  height: 51.938rem;
+  background-image: url(../imgs/IMAGE.jpeg);
+  background-size: cover;
+}
+
+.btn-main {
+  width: 12.938rem;
+  height: 4.438rem;
+  border: 0.125rem solid rgb(41, 47, 54);
+  border-radius: 1.125rem;
+  background: rgb(41, 47, 54);
+  color: white;
+}
+
+.cards {
+  width: 75rem;
+}
+
+.table-card {
+  display: flex;
+  width: 25rem;
+  height: 25rem;
+  text-align: center;
+  flex-direction: column;
+}
+
+.table-name {
+  color: rgb(41, 47, 54);
+  font-size: 1.563rem;
+  font-weight: 400;
+  line-height: 2.438rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+  width: 10.875rem !important;
+  margin: auto !important;
+}
+
+.table-descr {
+  color: rgb(77, 80, 83);
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2.063rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+  width: 19.813rem;
+  margin: auto !important;
+}
+
+.table-btn {
+  color: rgb(77, 80, 83);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.688rem;
+  letter-spacing: 0.023rem;
+  text-align: center;
+  margin: auto !important;
+}
+
+.call-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 2.75rem;
+  height: 37rem;
+  width: 75rem;
+}
+
+.call-name {
+  color: rgb(41, 47, 54);
+  font-family: DM Serif Display;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 65px;
+  letter-spacing: 0.22px;
+  text-align: left;
+}
+
+.call-descr {
+  color: rgb(77, 80, 83);
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  text-align: left;
+}
+
+.numb {
+  width: 300px;
+  height: 93px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.kitchen {
+  height: 37rem;
+  width: 37rem;
+}
+
+.img-kitchen {
+  width: 37rem;
+}
+
+.text-sec {
+  width: 37rem;
+}
+
+.review {
+  flex-direction: column;
+  width: 75rem;
+  height: 42.188rem;
+  gap: 2.875rem;
+  border-radius: 4.375rem;
+  background: rgb(244, 240, 236);
+  justify-content: center !important;
+}
+
+.rev-cards {
+  display: flex;
+}
+
+.name {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  letter-spacing: 0.014rem;
+  width: 30rem !important;
+  text-align: center;
+}
+
+.photo {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.name-rev {
+  color: rgb(41, 47, 54);
+  font-family: "DM Serif Display", serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+  line-height: 2.344rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+}
+
+.town-rev {
+  color: rgb(77, 80, 83);
+  font-family: Jost;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.688rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+}
+
+.text-rev {
+  color: rgb(77, 80, 83);
+  font-family: Jost;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+  width: 17.125rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name-town {
+  display: flex;
+  width: 18.063rem;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rev-card {
+  border-radius: 1.875rem;
+  background: rgb(255, 255, 255);
+  width: 22.25rem;
+  height: 18.063rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.brands {
+  width: 75rem;
+}
+
+.proj {
+  flex-direction: column;
+  gap: 4.375rem;
+}
+
+.pr-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.pr-name {
+  color: rgb(41, 47, 54);
+  font-family: "DM Serif Display", serif;
+  font-size: 2.938rem;
+  font-weight: 400;
+  line-height: 3.9rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+}
+
+.pr-descr {
+  color: rgb(77, 80, 83);
+  font-family: "Jost";
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2.063rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+}
+
+.pr-secname {
+  color: rgb(41, 47, 54);
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.344rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+  width: 20.313rem;
+  margin-bottom: 0;
+}
+
+.pr-secdescr {
+  color: rgb(77, 80, 83);
+  font-family: "Jost";
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2.063rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+}
+
+.pr-sectext {
+  height: 4.375rem;
+  width: 20.313rem;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.pr-subtext {
+  display: flex;
+  width: 36.875rem;
+  justify-content: space-between;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pr-cards {
+  width: 76.25rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pr-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.563rem;
+  width: 36.875rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pr-img {
+  width: 36.875rem;
+  height: 41.313rem;
+}
+
+.num {
+  background-color: rgb(244, 240, 236);
+}
+
+.num-cards {
+  display: flex;
+  height: 29.688rem;
+  gap: 0.5rem;
+  width: 75rem;
+  flex-wrap: nowrap !important;
+  align-items: center;
+}
+
+.num-card {
+  width: 18rem;
+  height: 12.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.num-name {
+  color: rgb(205, 162, 116);
+  font-family: "DM Serif Display", serif;
+  font-size: 5.313rem;
+  font-weight: 400;
+  line-height: 7.969rem;
+  letter-spacing: 0.106rem;
+  text-align: center;
+  width: 4.875rem !important;
+}
+
+.num-descr {
+  color: rgb(77, 80, 83);
+  font-family: "Jost";
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2.063rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+}
+
+.line {
+  height: 12.188rem;
+}
+
+.blog {
+  flex-direction: column;
+  gap: 4.375rem;
+}
+
+.blog-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.blog-name {
+  color: rgb(41, 47, 54);
+  font-family: "DM Serif Display", serif;
+  font-size: 2.938rem;
+  font-weight: 400;
+  line-height: 3.9rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+}
+
+.blog-descr {
+  color: rgb(77, 80, 83);
+  font-family: "Jost";
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2.063rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+}
+
+.blog-card-name {
+  color: rgb(41, 47, 54);
+  font-family: "DM Serif Display", serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+  line-height: 2.188rem;
+  letter-spacing: 0.031rem;
+  text-align: left;
+  width: 21.125rem !important;
+}
+
+.blog-card-date {
+  color: rgb(77, 80, 83);
+  font-family: "Jost";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+}
+
+.blog-arr {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+
+.blog-date-btn {
+  width: 21.541rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: space-between;
+}
+
+.blog-card {
+  box-sizing: border-box;
+  border: 0.063rem solid rgb(231, 231, 231);
+  border-radius: 3.875rem;
+  width: 24.188rem;
+  height: 31.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.blog-img {
+  height: 18.5rem;
+  width: 21.563rem;
+}
+
+.blog-cards {
+  width: 76.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2.5rem;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.join {
+  border-radius: 4.375rem;
+  background: rgb(41, 47, 54);
+  flex-direction: column;
+  width: 75rem;
+  height: 25.875rem;
+  gap: 1.25rem;
+  justify-content: center !important;
+}
+
+.join-name {
+  color: rgb(255, 255, 255);
+  font-family: "DM Serif Display", serif;
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 4.688rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+}
+
+.join-descr {
+  color: rgb(255, 255, 255);
+  font-family: "Jost";
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2.063rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+}
+
+.join-btn {
+  box-sizing: border-box;
+  border: 0.125rem solid rgb(205, 162, 116);
+  border-radius: 18px;
+  box-shadow: 0.063rem 0rem 1.125rem 0rem rgba(0, 0, 0, 0.2);
+  background: rgb(205, 162, 116);
+  color: rgb(255, 255, 255);
+  font-family: "Jost";
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.688rem;
+  letter-spacing: 0.014rem;
+  text-align: center;
+  width: 15.063rem;
+  height: 4.438rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 38rem;
+  justify-content: flex-end;
+}
+
+.foot-cols {
+  height: 28.375rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.foot-logo {
+  width: 24.625rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.foot-column {
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  height: 28.375rem;
+}
+
+.foot-text {
+  color: rgb(77, 80, 83);
+  font-family: "Jost";
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2.063rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+}
+
+.icons {
+  display: flex;
+  gap: 2.5rem;
+  height: 3.313rem;
+}
+
+.icon {
+  width: auto;
+  height: 1.125rem;
+}
+
+.foot-col-name {
+  color: rgb(41, 47, 54);
+  font-family: "DM Serif Display", serif;
+  font-size: 1.563rem;
+  font-weight: 400;
+  line-height: 2.344rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+  width: 13.188rem !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.foot-col-text {
+  color: rgb(77, 80, 83);
+  font-family: "Jost";
+  font-size: 1.375rem;
+  font-weight: 400;
+  line-height: 2.063rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  width: 13.188rem;
+}
+
+.black-text {
+  color: rgb(77, 80, 83);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  text-align: center;
+  width: auto;
+}
+
+.orange-text {
+  color: rgb(205, 162, 116);
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  text-align: center;
+  width: auto;
+}
+
+.text-footer {
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+  align-items: flex-end;
+}/*# sourceMappingURL=main.css.map */
